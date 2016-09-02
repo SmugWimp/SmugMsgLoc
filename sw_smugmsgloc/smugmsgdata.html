@@ -1,0 +1,32 @@
+<!-- ##################################################### -->                   
+<!-- ###############    Email Msg Data   ################# -->
+<!-- ##################################################### -->                   
+<div class='cpExpandoBox colorLightBg' id="section_smugmsgdata">
+    <a href='#' onClick="fnExpandCollapse('box_smugmsgdata');return false;"><img src='../../images/arr_right.gif' alt='arrow' />Message Data String</a>
+    <div id="box_smugmsgdata" style="display:none;">
+		<div style="padding-top:10px;margin-bottom:10px;">
+			<div style="padding-top:10px;">
+            	Message Data:
+            <input type="text" name="json_smugmsgdata" id="json_smugmsgdata" value="">
+            </div>
+            <div style='padding-top:10px;'>
+				<b>Enter a URL, or Message Default Data</b><p />
+				By default the data is a Google URL;<p />
+				<i>http://maps.google.com/maps?q=[deviceLatitude],[deviceLongitude]</i><p />
+				It is suggested that the URL remain. However, if you wish to change the format<br />
+				use [deviceLatitude] and [deviceLongitude] as placeholders for the coordinates in your text.<p />
+				For example: "Hey, I bet you can't find me! I'm at [deviceLatitude] and [deviceLongitude]. I'll give you an hour!"<p />
+				Remember SMS Text Messages are typically limited to 160 characters.<br />
+				Total Coordinate length 'up to' 21 (-XXX.XXXXX,-XXX.XXXXX) characters.<p />
+           </div>
+		</div>        
+        <div class='boxButton'>
+            <input type='button' title="save" value="save" align='absmiddle' class="buttonSubmit" onClick="saveAdvancedProperty('saveResult_smugmsgdata');return false;">
+            <div id="saveResult_smugmsgdata" class="submit_working">&nbsp;</div>
+        </div>
+	</div>
+</div>
+<!-- ##################################################### -->                   
+<!-- ###############  End Email Msg Data ################# -->
+<!-- ##################################################### --> 
+

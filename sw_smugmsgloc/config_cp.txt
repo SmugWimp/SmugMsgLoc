@@ -1,0 +1,14 @@
+{"propertySections":[
+	{"fileType":"bt_section", "fileName":"btSection_navBar.html"},
+	{"fileType":"bt_section", "fileName":"btSection_backgroundColor.html"},
+	{"fileType":"bt_section", "fileName":"btSection_search.html"},
+	{"fileType":"customInclude", "fileName":"smugsubjdata.html"},
+	{"fileType":"customInclude", "fileName":"smugmsgdata.html"},
+	{"fileType":"customInclude", "fileName":"compassArrowImgFilename.html"},
+	{"fileType":"customInclude", "fileName":"compassBGImgFilename.html"},
+	{"fileType":"bt_section", "fileName":"btSection_screenJson.html"},	
+	{"fileType":"bt_section", "fileName":"btSection_tabBar.html"},
+	{"fileType":"bt_section", "fileName":"btSection_backgroundAudio.html"},
+	{"fileType":"bt_section", "fileName":"btSection_ads.html"}
+	]
+}

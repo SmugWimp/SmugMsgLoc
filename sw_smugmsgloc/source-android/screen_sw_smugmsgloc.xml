@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/containerView"
+   		android:background="@android:color/transparent"    
+   		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent">
+  		
+   <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:layout_marginTop="5dip"
+        android:text="Send Message" />
+
+    <RadioGroup
+        android:id="@+id/radioMsgType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSend"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true" >
+
+        <RadioButton
+            android:id="@+id/radioSMS"
+            android:checked="true"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:text="SMS" />
+
+        <RadioButton
+            android:id="@+id/radioEmail"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:text="Email" />
+	   <Button
+    	    android:id="@+id/btnRefresh"
+        	android:layout_width="100dip"
+        	android:layout_height="40dip"
+            android:layout_weight="1"
+        	android:text="Refresh" />
+   </RadioGroup>
+    
+    <WebView
+        android:id="@+id/smugMapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/radioMsgType"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+        
+ </RelativeLayout>

@@ -1,0 +1,37 @@
+//buzztouch plugin info
+uniquePluginId: sw_smugmsgloc
+displayAs: Smugs Message Location
+category: Screen
+loadClassOrActionName: sw_smugmsgloc
+hasChildItems: No
+supportedDevices: iosAndAndroid
+
+//author info
+authorName: SmugWimp
+authorEmail: smugwimp@smugwimp.com
+authorBuzztouchURL: https://www.buzztouch.com/SmugWimp
+authorWebsiteURL: http://www.smugwimp.com
+authorTwitterURL: http://www.twitter.com/smugwimp
+authorFacebookURL: http://www.facebook.com/smugwimp
+authorYouTubeURL: http://www.youtube.com/smugwimp
+
+//version info
+versionNumber: 1.9
+versionString: v1.9
+updateURL: https://www.buzztouch.com/plugins/update.php?pid=E68E235A292B9B65CE07FC6
+downloadURL: https://www.buzztouch.com/plugins/download.php?pid=E68E235A292B9B65CE07FC6
+
+//default json data
+defaultJSONData:
+{
+	"navBarTitleText":"[itemNickname]", 
+	"smugsubjdata":"Over Here!",
+	"backgroundColor":"#999999", 
+	"hideFromSearch":"1", 
+	"smugmsgdata":"http://maps.google.com/maps?q=[deviceLatitude],[deviceLongitude]"
+}
+	
+
+//description for control panel. Up to 250 characters. No HTML.
+shortDescription:
+Allows user to SMS/Email their current location in Google Map or other format.
